@@ -1,6 +1,8 @@
 # Práctica de búsqueda
 
 Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **3º Año de carrera**
+- Curso 2020-2021
+- Alumno: José Javier Díaz González
 
 ## Algoritmo A*
 
