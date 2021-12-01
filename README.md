@@ -7,17 +7,25 @@ Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **2º A�
 En este fichero se exponen las instrucciones de ejecución del programa realizado.
 
 ### Compilación
-Para compilar el programa, basta con situarnos en la carpeta del proyecto y ejecutar el siguiente comando:
+Para compilar el programa, se necesitará una versión **Linux** y el lenguaje de **C++** instalado. Para instalar el lenguaje, se deberá escribir
+
+> sudo apt install g++
+
+También es necesario instalar el paquete *make*
+
+> sudo apt install make
+
+Ahora con situarnos en la carpeta del proyecto y ejecutamos el siguiente comando:
 
 > make
 
-Esto nos creará varios ficheros, pero el más importante es el que se llama
+Esto nos creará varios ficheros, pero el más importante está en la carpeta carpeta */bin/* que se llama 
 
 > cocheAutonomo
 
 ### Ejecución del programa
 Para ejecutar el programa escribimos en la terminal:
-> ./cocheAutonomo
+> ./bin/cocheAutonomo
 
 ## Programa:
 #### Al principio de la ejecución, bastará con seguir el menú. Se nos pedirá si tendremos que leer el fichero o no. 
