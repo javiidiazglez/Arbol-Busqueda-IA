@@ -1,6 +1,6 @@
 # Práctica de búsqueda
 
-Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **2º Año de carrera**
+Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **3º Año de carrera**
 
 ## Algoritmo A*
 
