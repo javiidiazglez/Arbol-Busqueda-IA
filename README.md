@@ -19,12 +19,28 @@ Esto nos creará varios ficheros, pero el más importante es el que se llama
 Para ejecutar el programa escribimos en la terminal:
 > ./cocheAutonomo
 
-Una vez iniciada la ejecución del mismo, bastará con seguir el menú, indicando las preferencias que tengamos (leer desde fichero, introducir los obstáculos manualamente, etc.).
-Cuando se acaben de introducir todos los datos, se mostrará por pantalla el mapa generado, y el resultado de utilizar el algoritmo A* en él, con la o las funciones heurísticas que deseemos.
+## Programa:
+Al principio de la ejecución, bastará con seguir el menú. Se nos pedirá si tendremos que leer el fichero o no. 
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_no.png)
 
-Por útlimo, se han incluido varios ficheros para poder probar el programa. A partir del mapa de 100x100, recomendamos que se haga algo de **Zoom Out**, ya que el output del programa es bastante grande.
-El mapa de 400x400 que se ha incluido se puede utilizar en el programa, pero se recomienda realizar muchísimo Zoom Out, o comentar dentro del código aquellas líneas que pintan el mapa en la términal (mapa.write(cout);), ya que el output es inmenso, y no hemos conseguido que se visualizara correctamente.
+En el caso que lo lea por fichero, se selecciona por ejemplo, un mapa de 50x50 con 25% de obstáculo
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_si.png)
 
+A continuación se nos pedirá las dimensiones de las **filas y columnas** respectivamentes. Pongamos por ejemplo un mapa de 50x50.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/dimensiones.png)
 
+Ahora seleccionamos los obstáculo, selecciona donde está la **posición**del vehículo, el **destino** y el **porcentaje** de obstáculo de forma aleatoria.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_aleatorio.png)
 
+Si queremos que la determinación de obstáculo sea manual, se escribirá con sus filas y columnas donde estará cada posición
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_manual.png)
 
+Cuando se acaben de introducir todos los datos, se mostrará por pantalla el mapa generado.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/imprimir_tabla.png)
+
+Una vez generado el mapa, se mostrará el resultado de utilizar el algoritmo A* en él, con la o las funciones heurísticas que deseemos.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/funcion_heuristica.png)
+![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla_existe.png)
+
+Para finalizar, se mostrará como quedará un mapa de 50x50 con 25% de obstáculos.
+![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla-50x50-25.png)
