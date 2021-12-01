@@ -29,19 +29,16 @@ Para ejecutar el programa escribimos en la terminal:
 > ./bin/cocheAutonomo
 
 ## Programa:
-#### Al principio de la ejecución, bastará con seguir el menú. Se nos pedirá si tendremos que leer el fichero o no. 
+#### Al principio de la ejecución, bastará con seguir el menú. Se nos pedirá si tendremos que leer el fichero o no. En este caso, seleccionamos que la entrada sea manual.
 ![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_no.png)
 
-#### En el caso que lo lea por fichero, se selecciona por ejemplo, un mapa de 50x50 con 25% de obstáculo
-![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_si.png)
-
-#### A continuación se nos pedirá las dimensiones de las **filas y columnas** respectivamentes. Pongamos por ejemplo un mapa de 50x50.
+#### A continuación se nos pedirá las dimensiones de las **filas y columnas** respectivamentes. Pongamos por ejemplo de un mapa de 50x50.
 ![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/dimensiones.png)
 
-#### Ahora seleccionamos los obstáculo, selecciona donde está la **posición**del vehículo, el **destino** y el **porcentaje** de obstáculo de forma aleatoria.
+#### Ahora seleccionamos los obstáculos, selecciona donde está la **posición** del vehículo, el **destino** y el **porcentaje** de los obstáculos de forma aleatoria.
 ![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_aleatorio.png)
 
-#### Si queremos que la determinación de obstáculo sea manual, se escribirá con sus filas y columnas donde estará cada posición
+#### Si queremos que la determinación de obstáculo sea manual, se escribirá con sus **filas** y **columnas** donde estará en cada posición.
 ![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_manual.png)
 
 #### Cuando se acaben de introducir todos los datos, se mostrará por pantalla el mapa generado.
@@ -51,5 +48,8 @@ Para ejecutar el programa escribimos en la terminal:
 ![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/funcion_heuristica.png)
 ![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla_existe.png)
 
-#### Para finalizar, se mostrará como quedará un mapa de 50x50 con 25% de obstáculos.
+#### En el caso que lo lea por fichero, se selecciona por ejemplo, un mapa de 50x50 con 25% de obstáculos.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_si.png)
+
+#### A continuación se mostrará como quedará un mapa seleccionado por fichero.
 ![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla-50x50-25.png)
