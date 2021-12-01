@@ -1,10 +1,21 @@
-CC=g++
-CXXFLAGS=-g -std=c++14
+CXX		  := g++
+CXX_FLAGS := -std=c++14
 
-OBJS = main.o mapa.o celda.o coche.o
+BIN		:= bin
+SRC		:= src
+INCLUDE	:= include
 
-all: ${OBJS}
-	$(CC) $(CXXFLAGS) -o cocheAutonomo ${OBJS}
+EXECUTABLE	:= cocheAutonomo
 
-clean: 
-	rm -rf *.o cocheAutonomo
+
+all: $(BIN)/$(EXECUTABLE)
+
+run: clean all
+	clear
+	./$(BIN)/$(EXECUTABLE)
+
+$(BIN)/$(EXECUTABLE): $(SRC)/*.cpp
+	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) $^ -o $@ 
+
+clean:
+	-rm $(BIN)/*
