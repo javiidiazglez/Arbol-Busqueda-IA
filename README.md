@@ -7,8 +7,9 @@ Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **2º A�
 En este fichero se exponen las instrucciones de ejecución del programa realizado.
 
 ### Compilación
-Para compilar el programa, se necesitará una versión **Linux** y el lenguaje de **C++** instalado. Para instalar el lenguaje, se deberá escribir
+Para compilar el programa, se necesitará una versión **Linux** y el lenguaje de **C++** instalado. 
 
+Para instalar el lenguaje, se deberá escribir
 > sudo apt install g++
 
 También es necesario instalar el paquete *make*
