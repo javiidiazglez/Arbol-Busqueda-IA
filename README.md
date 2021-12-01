@@ -1,4 +1,7 @@
 # Práctica de búsqueda
+
+Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **2º Año de carrera**
+
 ## Algoritmo A*
 
 En este fichero se exponen las instrucciones de ejecución del programa realizado.
