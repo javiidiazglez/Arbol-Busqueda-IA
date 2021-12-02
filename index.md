@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Práctica de búsqueda
 
-You can use the [editor on GitHub](https://github.com/alu0101128894/Arbol-Busqueda-IA/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Repositorio de la Práctica 1 de Búsqueda de Inteligencia Artificial - **3º Año de carrera**
+- Curso 2020-2021
+- Alumno: José Javier Díaz González
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Algoritmo A*
 
-### Markdown
+En este fichero se exponen las instrucciones de ejecución del programa realizado.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Compilación
+Para compilar el programa, se necesitará una versión **Linux** y el lenguaje de **C++** instalado. 
 
-```markdown
-Syntax highlighted code block
+Para instalar el lenguaje, se deberá escribir
+> sudo apt install g++
 
-# Header 1
-## Header 2
-### Header 3
+También es necesario instalar el paquete *make*
 
-- Bulleted
-- List
+> sudo apt install make
 
-1. Numbered
-2. List
+Ahora con situarnos en la carpeta del proyecto y ejecutamos el siguiente comando:
 
-**Bold** and _Italic_ and `Code` text
+> make
 
-[Link](url) and ![Image](src)
-```
+Esto nos creará varios ficheros, pero el más importante está en la carpeta carpeta */bin/* que se llama 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+> cocheAutonomo
 
-### Jekyll Themes
+### Ejecución del programa
+Para ejecutar el programa escribimos en la terminal:
+> ./bin/cocheAutonomo
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alu0101128894/Arbol-Busqueda-IA/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Programa:
+#### Al principio de la ejecución, bastará con seguir el menú. Se nos pedirá si tendremos que leer el fichero o no. En este caso, seleccionamos que la entrada sea manual.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_no.png)
 
-### Support or Contact
+#### A continuación se nos pedirá las dimensiones de las *filas y columnas* respectivamentes. Pongamos por ejemplo de un mapa de (50x50).
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/dimensiones.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Ahora seleccionamos los obstáculos, selecciona donde está la *posición* del vehículo, el *destino* y el *porcentaje* de los obstáculos de forma aleatoria.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_aleatorio.png)
+
+#### Si queremos que la determinación de obstáculo sea manual, se escribirá con sus *filas* y *columnas*, dónde estará cada posición.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/vehiculo_manual.png)
+
+#### Cuando se acaben de introducir todos los datos, se mostrará por pantalla el mapa generado.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/imprimir_tabla.png)
+
+#### Una vez generado el mapa, se mostrará el resultado de utilizar el algoritmo A* en él, con la o las funciones heurísticas que deseemos.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/funcion_heuristica.png)
+![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla_existe.png)
+
+#### En el caso que lo lea por fichero, se selecciona por ejemplo, un mapa de (50x50) con 25% de obstáculos.
+![alt text](https://raw.githubusercontent.com/alu0101128894/Arbol-Busqueda-IA/main/img/leer_fichero_si.png)
+
+#### A continuación se mostrará como quedará un mapa seleccionado por fichero.
+![alt text](https://github.com/alu0101128894/Arbol-Busqueda-IA/blob/main/img/tabla-50x50-25.png)
